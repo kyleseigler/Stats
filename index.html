@@ -19,30 +19,29 @@
 	
 	<link href="styles/app.css" rel="stylesheet" type="text/css">
 	
-	<script>
-	// From http://www.webdeveloper.com/forum/showthread.php?169337-Auto-refresh-lt-DIV-gt-using-ajax
-		var auto_refresh = setInterval(
-		function() {
-			$('#sysStatus').load('./scripts/sysStatus.php');
-		}, 500);
-	</script>
-	
 </head>
 <body>
 
-  <p><h1>fxStats</h1></p>
+  <p><h2>fxStats - <?php include_once('./scripts/systemName.php'); ?></h2></p>
+  <hr>
   
   <div id='serverInfo'>
 	<span id='sysStatus'>
-		<?php echo 'PHP shenanigans here'; ?>
+		<p><b>Uptime:</b><br><?php include_once('./scripts/systemUptime.php'); ?></p>
+    <hr>
+    <p><b>Load avg:</b><br><?php include_once('./scripts/systemLoad.php'); ?></p>
+    <hr>
+    <p><b>Sensors:</b><br><?php include_once('./scripts/systemSensors.php'); ?></p>
+    <hr>
+    <p><b>Disk usage:</b><br><?php include_once('./scripts/systemDiskSpace.php'); ?></p>
 	</span>
   </div>
   
-  <button id="install-btn">Install app</button>
+  <!-- <button id="install-btn">Install app</button> -->
 
 <!-- The following element pulls in the script for the default template functionality -->
 	
-<script src="scripts/install.js"></script>	
+<!-- <script src="scripts/install.js"></script>	-->
 
 <!-- Below is your custom application script -->
 
