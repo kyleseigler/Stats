@@ -110,9 +110,9 @@ section[role="region"] .content [data-type="list"] header {
 }
 
 hr {
-color:#00AACC;
+color:#A6A6A6; /* was #00AACC */
 padding:0px;
-margin:5px 2px;
+margin:5px 15px;
 }
 
 /* Fonts */
@@ -127,14 +127,14 @@ h2 { /* Subheader, Dialog title */
   color:#333333;
   font-size: 2.0rem;
   font-weight: normal;
-  margin:2px 2px;
+  margin:2px 5px;
 }
 
 p {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.4rem;
-  margin:0px 2px;
+  margin:0px 5px;
 }
 
 p.large { /* Dialog body */
