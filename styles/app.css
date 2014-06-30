@@ -34,6 +34,13 @@ body {
   padding:8x;
 }
 
+header {
+  background-color:#CD6723;
+  height:5rem;
+  text-align:left;
+  
+}
+
 .hidden {
   visibility: hidden;
 }
@@ -109,10 +116,9 @@ margin:5px 2px;
 
 /* Fonts */
 h1 { /* Main header */
-  color:#333333;
-  font-size: 2.8rem;
+  color:#F4F4F4;
+  font-size: 2.5rem;
   font-weight: normal;
-  margin:5px 2px;
 }
 
 h2 { /* Subheader, Dialog title */

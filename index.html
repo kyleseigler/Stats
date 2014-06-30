@@ -22,11 +22,12 @@
 </head>
 <body>
 
-  <h1>fxStats - <?php include_once('./scripts/systemName.php'); ?></h1>
-  <hr>
+  <header>
+    <h1>fxStats - server stats</h1>
+  </header>
   
   <div id='serverInfo'>
-    <h2>OS:</h2><p><?php include_once('./scripts/systemOSInfo.php'); ?></p>
+    <h2>OS/HW name:</h2><p><?php include_once('./scripts/systemName.php'); ?> - <?php include_once('./scripts/systemOSInfo.php'); ?></p>
     <hr>
 		<h2>Uptime:</h2><p><?php include_once('./scripts/systemUptime.php'); ?></p>
     <hr>
