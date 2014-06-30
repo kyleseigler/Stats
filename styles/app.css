@@ -102,18 +102,21 @@ section[role="region"] .content [data-type="list"] header {
 }
 
 hr {
+color:#00AACC;
 padding:0px;
 margin:5px 2px;
 }
 
 /* Fonts */
 h1 { /* Main header */
-  font-size: 2.5rem;
+  color:#333333;
+  font-size: 2.8rem;
   font-weight: normal;
   margin:5px 2px;
 }
 
 h2 { /* Subheader, Dialog title */
+  color:#333333;
   font-size: 2.0rem;
   font-weight: normal;
   margin:2px 2px;
