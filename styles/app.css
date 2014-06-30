@@ -35,10 +35,11 @@ body {
 }
 
 header {
-  background-color:#CD6723;
+  background-image:url('../images/header.png');
+  background-repeat:repeat-x;
   height:5rem;
   text-align:left;
-  
+  line-height:5rem;
 }
 
 .hidden {
@@ -116,9 +117,10 @@ margin:5px 2px;
 
 /* Fonts */
 h1 { /* Main header */
-  color:#F4F4F4;
+  color:#FFFFFF;
   font-size: 2.5rem;
   font-weight: normal;
+  padding:0px 5px;
 }
 
 h2 { /* Subheader, Dialog title */
