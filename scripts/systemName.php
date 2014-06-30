@@ -1,4 +1,4 @@
 <?php
-$systemName = shell_exec('uname -n');
+$systemName = shell_exec('hostname');
 print("$systemName");
 ?>
