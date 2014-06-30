@@ -1,6 +1,5 @@
 /*Default CSS layout for narrow screens*/
 
-
 @media (min-width: 480px) {
   /*CSS for medium width screens*/
 }
@@ -11,4 +10,9 @@
 
 @media (min-width: 1100px) {
   /*CSS for really wide screens*/
+}
+
+/*Basic color scheme, UI design*/
+body {
+background-color:#EAEAE7;
 }

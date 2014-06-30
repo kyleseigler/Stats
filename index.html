@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>MDN Web apps template</title>
+	<title>fxStats</title>
 	
 	<!--[if le IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,10 +19,24 @@
 	
 	<link href="styles/app.css" rel="stylesheet" type="text/css">
 	
+	<script>
+	// From http://www.webdeveloper.com/forum/showthread.php?169337-Auto-refresh-lt-DIV-gt-using-ajax
+		var auto_refresh = setInterval(
+		function() {
+			$('#sysStatus').load('./scripts/sysStatus.php');
+		}, 500);
+	</script>
+	
 </head>
 <body>
 
-  <p>This is my content!</p>
+  <p><h1>fxStats</h1></p>
+  
+  <div id='serverInfo'>
+	<span id='sysStatus'>
+		<?php echo 'PHP shenanigans here'; ?>
+	</span>
+  </div>
   
   <button id="install-btn">Install app</button>
 
