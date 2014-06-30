@@ -1,4 +1,4 @@
 <?php
-$systemLoad = shell_exec("uptime | awk '{print $10,$11,$12}'");
+$systemLoad = shell_exec("uptime | gawk '{print $10,$11,$12}'");
 print($systemLoad);
 ?>
