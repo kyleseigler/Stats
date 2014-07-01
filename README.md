@@ -7,12 +7,12 @@ This app displays as a single page in a web browser, with its style optimized fo
 ### What's it for?
 
 I wrote this app so I could easily monitor my home server--from my mobile or laptop, home or elsewhere. I wanted to make this app simple--and most importantly--useful. At a glance, it is easy to see information such as:
-- System name/OS/architecture
-- Uptime
-- Load averages
-- Temperature sensors and fan speed
-- Disk usage and free space
-- Currently logged-in users
+* System name/OS/architecture
+* Uptime
+* Load averages
+* Temperature sensors and fan speed
+* Disk usage and free space
+* Currently logged-in users
 
 ### How do you use it?
 
@@ -21,8 +21,8 @@ Currently, as long as you have a standard LAMP stack (and basic GNU/Linux comman
 ### What's the plan for this project?
 
 My upcoming plans include:
-- Packaging this to be a hosted webapp for Firefox OS.
-- Adding a simple `config.txt` file to make setting up thermal sensors and disk usage settings easier
-- Possibly adding interactive features, making this app a little more versatile (e.g. manual information refresh or an adjustable interval, expanding/collapsing information fields, HTML5 graphics).
+* Packaging this to be a hosted webapp for Firefox OS.
+* Adding a simple `config.txt` file to make setting up thermal sensors and disk usage settings easier
+* Possibly adding interactive features, making this app a little more versatile (e.g. manual information refresh or an adjustable interval, expanding/collapsing information fields, HTML5 graphics).
 
 Thank you for reading this far, and I hope you are able to use some of this as well!
