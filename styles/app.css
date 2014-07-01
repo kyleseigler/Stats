@@ -120,7 +120,7 @@ h1 { /* Main header */
   color:#FFFFFF;
   font-size: 2.5rem;
   font-weight: normal;
-  padding:0px 5px;
+  padding:0px 12px;/* was 0px 5px */
 }
 
 h2 { /* Subheader, Dialog title */
