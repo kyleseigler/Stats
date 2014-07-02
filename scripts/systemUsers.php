@@ -5,5 +5,8 @@ $systemUsersList = shell_exec("users");
 $systemUsersPrepped = str_replace(' ', ', ',$systemUsersList);
 $systemUsersTrimmed = substr($systemUsersPrepped, 0, -1);
 
+print('<span id="systemUsers">');
 print("$systemUserTotal users:<br>($systemUsersTrimmed)");
+print('</span>');
+
 ?>
