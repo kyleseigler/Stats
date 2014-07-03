@@ -139,6 +139,9 @@ h2 { /* Subheader, Dialog title */
 a {
   text-decoration:none;
   color:#FF4E00;
+  width:100%;
+  height:100%;
+  display:block;
 }
 
 a:hover {
