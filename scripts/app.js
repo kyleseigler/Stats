@@ -1,16 +1,28 @@
-var auto_refresh = setInterval(
+// Information loaded once/initially
+$('#systemOSInfo').load('./scripts/systemOSInfo.php');
+$('#systemSensors').load('./scripts/systemSensors.php');
+$('#systemUptime').load('./scripts/systemUptime.php');
+$('#systemLoad').load('./scripts/systemLoad.php');
+$('#systemUsers').load('./scripts/systemUsers.php');
+$('#systemDiskUsage').load('./scripts/systemDiskSpace.php');
+
+// Information refreshed every 2 seconds
+var auto_refresh2000 = setInterval(
 		function() {
-      $('#systemUptime').load('./scripts/systemUptime.php');
-      $('#systemLoad').load('./scripts/systemLoad.php');
       $('#systemSensors').load('./scripts/systemSensors.php');
-      $('#systemDiskUsage').load('./scripts/systemDiskSpace.php');
-      $('#systemUsers').load('./scripts/systemUsers.php');
-      $('#systemOSInfo').load('./scripts/systemOSInfo.php');
 		}, 2000);
 
+// Information refreshed every 1 minute
+var auto_refresh60000 = setInterval(
+    function() {
+      $('#systemUptime').load('./scripts/systemUptime.php');
+      $('#systemLoad').load('./scripts/systemLoad.php');
+      $('#systemUsers').load('./scripts/systemUsers.php');
+      $('#systemDiskUsage').load('./scripts/systemDiskSpace.php');
+    }, 60000);
+
+
 function toggle(targetDiv) {
-  //var targetDiv = document.getElementById("systemUptime");
-  //var targetDiv = arguments[0];
   if (targetDiv.style.display == "none") {
     targetDiv.style.display = "block";
   }
