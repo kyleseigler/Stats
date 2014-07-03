@@ -128,7 +128,6 @@ h2 { /* Subheader, Dialog title */
 }
 
 .hidden {
-  visibility: hidden;
   display:none;
 }
 
