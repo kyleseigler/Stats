@@ -1,6 +1,6 @@
 {
-  "version": "0.1",
-  "name": "fxStats",
+  "version": "0.2",
+  "name": "Stats",
   "description": "Monitor your GNU/Linux server.",
   "launch_path": "/index.html",
   "icons": {
