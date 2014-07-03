@@ -25,7 +25,5 @@ My upcoming plans include:
 * Adding a simple `config.txt` file to make setting up thermal sensors and disk usage settings easier (possibly written/edited by app settings menu).
 * Possibly adding interactive features, making this app a little more versatile (e.g. manual information refresh or an adjustable interval, HTML5 graphics).
 
-Thank you for reading this far, and I hope you are able to use some of this as well!
-
 ### Recent additions:
 * Information fields now expand/collapse on click or touch.
