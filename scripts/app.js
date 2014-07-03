@@ -1,6 +1,6 @@
 var auto_refresh = setInterval(
 		function() {
-			$('#systemUptime').load('./scripts/systemUptime.php');
+      $('#systemUptime').load('./scripts/systemUptime.php');
       $('#systemLoad').load('./scripts/systemLoad.php');
       $('#systemSensors').load('./scripts/systemSensors.php');
       $('#systemDiskUsage').load('./scripts/systemDiskSpace.php');
