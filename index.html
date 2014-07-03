@@ -15,12 +15,12 @@
 	<link href="styles/app.css" rel="stylesheet" type="text/css">
   
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
-	<script>
+<!--	<script>
 		var auto_refresh = setInterval(
 		function() {
 			$('#serverInfo').load('./scripts/SystemInformation.html');
 		}, 2000);
-	</script>
+	</script> -->
   
 </head>
 <body>
@@ -30,7 +30,41 @@
   </header>
   
   <div id='serverInfo'>
-
+    <h2><a href="#" onclick="toggleOSInfo()">OS/HW</a></h2>
+    <div id="systemOSInfo" class="shown">
+    </div>
+    
+    <hr>
+    
+    <h2><a href="#" onclick='toggleUptime()'>UPTIME</a></h2>
+    <div id="systemUptime" class="shown">
+    </div>
+    
+    <hr>
+    
+    <h2><a href="#" onclick="toggleLoad()">LOAD</a></h2>
+    <div id="systemLoad" class="shown">
+    </div>
+    
+    <hr>
+    
+    <h2><a href="#" onclick="toggleSensors()">SENSORS</a></h2>
+    <div id="systemSensors" class="shown">
+    </div>
+    
+    <hr>
+    
+    <h2><a href="#" onclick="toggleDiskUsage()">DISK USAGE</a></h2>
+    <div id="systemDiskUsage" class="shown">
+    </div>
+    
+    <hr>
+    
+    <h2><a href="#" onclick="toggleUsers()">USERS</a></h2>
+    <div id="systemUsers" class="shown">
+      <p><?php include_once('../scripts/systemUsers.php'); ?></p>
+    </div>
+    
   </div>
   
   <!-- <button id="install-btn">Install app</button> -->

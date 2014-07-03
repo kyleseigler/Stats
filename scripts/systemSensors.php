@@ -7,10 +7,10 @@ $sensorsCore1F = shell_exec("sensors | egrep 'Core 1' | awk '{print ($3*9/5+32)}
 
 $sensorsFan = shell_exec("sensors | egrep 'Master' | awk '{print $3}'");
 
-print('<span id="systemSensors">');
+print("<p>");
 print("CPU Core 0: $sensorsCore0C&deg;C ($sensorsCore0F&deg;F)<br>");
 print("CPU Core 1: $sensorsCore1C&deg;C ($sensorsCore1F&deg;F)<br>");
 print("Fan speed: $sensorsFan RPM");
-print('</span>');
+print("</p>");
 
 ?>

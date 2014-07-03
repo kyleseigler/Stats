@@ -42,10 +42,6 @@ header {
   line-height:5rem;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
 section[role="region"] {
   height: 100%;
   background: #fff;
@@ -129,6 +125,35 @@ h2 { /* Subheader, Dialog title */
   font-size: 1.6rem;/* was 2.0rem */
   font-weight: normal;
   margin:5px 22px;/* was 2px 5px */
+}
+
+.hidden {
+  visibility: hidden;
+  display:none;
+}
+
+.shown {
+  display:block;
+}
+
+a {
+  text-decoration:none;
+  color:#FF4E00;
+}
+
+a:hover {
+  text-decoration:none;
+  color:#FF4E00;
+}
+
+a:active {
+  text-decoration:none;
+  color:#FF4E00;
+}
+
+a:visited {
+  text-decoration:none;
+  color:#FF4E00;
 }
 
 p {
