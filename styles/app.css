@@ -124,6 +124,7 @@ h1 { /* Main header */
 }
 
 h2 { /* Subheader, Dialog title */
+  font-family:DejaVu Serif;/* follows FxOS list styles */
   color:#FF4E00;/* was #333333 */
   font-size: 1.6rem;/* was 2.0rem */
   font-weight: normal;
