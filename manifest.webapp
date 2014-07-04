@@ -4,7 +4,7 @@
   "description": "Monitor your GNU/Linux server.",
   "launch_path": "/index.html",
   "icons": {
-    "60": "/app-icons/fxStats_icon_-_60x60.png"
+    "60": "/app-icons/Stats_icon_-_60x60.png"
   },
   "developer": {
     "name": "Kyle Seigler",
